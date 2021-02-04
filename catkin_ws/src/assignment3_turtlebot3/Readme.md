@@ -13,9 +13,8 @@ Task 1
 	A) Move the turtlebot in circular motion.
 		We use the python script circle.py for its implementation.It uses the
 		concept that when given a same angular and linear velocity to the 
-		bot it moves in circular motion.
+		bot it moves in circular motion. Use the below command to execute.
 		
-		Use Command
 	'roslaunch assignment3_turtlebot3 move.launch code:=circle'
 	
 	
@@ -26,9 +25,8 @@ Task 1
 		motion ie. straight motion and 90 deg rotation. We used 0.2 linear and
 		angular velocity to reduce the error in gazebo and also some gain 
 		added to the rotation by trial and error to have a trajectory similar
-		to square.
+		to square. Use the below command to execute.
 		
-		Use command
        'roslaunch assignment3_turtlebot3 move.launch code:=square'
 	
 	
@@ -43,8 +41,8 @@ Task 2:
 	In task 2 we create a world with the turtlebot3 and a wall. Then we simulate
 	a script called emergency_braking.py which moves the turtlebot3 in a straight
 	motion but stops at emergency distance from the wall after it senses the wall.
+	Use the below command to execute.
 	
-	Use command
   'roslaunch assignment3_turtlebot3 emergency_brake_wall.launch'
   
   
