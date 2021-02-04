@@ -5,7 +5,7 @@
 
 ## Navigating through assignment 3:
 
-[navigation](https://github.com/kloya03/AuE893_KartikLoya_Sp21/blob/master/catkin_ws/src/assignment3_turtlebot3/Videos/navigation.png)	
+![navigation](https://github.com/kloya03/AuE893_KartikLoya_Sp21/blob/master/catkin_ws/src/assignment3_turtlebot3/videos/navigation.png)	
 
 In Assignment 3 we have 2 tasks
 
