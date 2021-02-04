@@ -5,23 +5,7 @@
 
 ## Navigating through assignment 3:
 
-'''
-
-				    | -> worlds --> turtlebot3_wall.world
-				    | 
-			 |--> src --| -> launch --> move.launch
-			 |	    |           --> emergency_brake_wall.launch
-			 | 	    | 
-			 |	    |              | --> circle.py
-Assignment3_turtlebot3- |          | -> scripts --|--> square.py
-			 |			    | --> emergency_braking.py
-			 |
-			 |
-			 | 	       |--> emergency braking.webm
-			-|--> videos --|--> circle.webm
-			               |--> square.webm
-'''
-			
+[navigation](https://github.com/kloya03/AuE893_KartikLoya_Sp21/blob/master/catkin_ws/src/assignment3_turtlebot3/Videos/navigation.png)	
 
 In Assignment 3 we have 2 tasks
 
@@ -32,7 +16,7 @@ Task 1
 		bot it moves in circular motion.
 		
 		Use Command
-	''' $ roslaunch assignment3_turtlebot3 move.launch code:=circle '''
+	'roslaunch assignment3_turtlebot3 move.launch code:=circle'
 	
 	
 	
@@ -45,7 +29,7 @@ Task 1
 		to square.
 		
 		Use command
-       ''' $ roslaunch assignment3_turtlebot3 move.launch code:=square '''
+       'roslaunch assignment3_turtlebot3 move.launch code:=square'
 	
 	
 	
@@ -61,7 +45,7 @@ Task 2:
 	motion but stops at emergency distance from the wall after it senses the wall.
 	
 	Use command
-  ''' $ roslaunch assignment3_turtlebot3 emergency_brake_wall.launch '''
+  'roslaunch assignment3_turtlebot3 emergency_brake_wall.launch'
   
   
 	Launch File:
