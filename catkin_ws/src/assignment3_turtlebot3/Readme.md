@@ -1,8 +1,11 @@
-**********   ASSIGNMENT 3   **********
+# TEAM 4
+
+##  ASSIGNMENT 3   
 
 
-Navigating through assignment 3:
+## Navigating through assignment 3:
 
+'''
 
 				  | -worlds -- turtlebot3_wall.world
 				  | 
@@ -17,7 +20,7 @@ Assignment3_turtlebot3- |        | - scripts --  - square.py
 			 | 	       -emergency braking.webm
 			-|--videos --- -circle.webm
 			               -square.webm
-			               
+'''
 			
 
 In Assignment 3 we have 2 tasks
@@ -29,7 +32,7 @@ Task 1
 		bot it moves in circular motion.
 		
 		Command to execute this
-	 $ roslaunch assignment3_turtlebot3 move.launch code:=circle
+	''' $ roslaunch assignment3_turtlebot3 move.launch code:=circle '''
 	
 	
 	
@@ -42,7 +45,7 @@ Task 1
 		to square.
 		
 		Command to execute this
-	$ roslaunch assignment3_turtlebot3 move.launch code:=square
+       ''' $ roslaunch assignment3_turtlebot3 move.launch code:=square '''
 	
 	
 	
@@ -58,7 +61,7 @@ Task 2:
 	motion but stops at emergency distance from the wall after it senses the wall.
 	
 	Command to execute this:
-  $ roslaunch assignment3_turtlebot3 emergency_brake_wall.launch
+  ''' $ roslaunch assignment3_turtlebot3 emergency_brake_wall.launch '''
   
   
 	Launch File:
