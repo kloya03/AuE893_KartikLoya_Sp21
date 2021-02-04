@@ -7,19 +7,19 @@
 
 '''
 
-				  | -worlds -- turtlebot3_wall.world
-				  | 
-			 |--src --| -launch -- -move.launch
-			 |	  |            -emergency_brake_wall.launch
-			 | 	  | 
-			 |	  |  		   - circle.py
-Assignment3_turtlebot3- |        | - scripts --  - square.py
-			 |			   - emergency_braking.py
+				    | -> worlds --> turtlebot3_wall.world
+				    | 
+			 |--> src --| -> launch --> move.launch
+			 |	    |           --> emergency_brake_wall.launch
+			 | 	    | 
+			 |	    |              | --> circle.py
+Assignment3_turtlebot3- |          | -> scripts --|--> square.py
+			 |			    | --> emergency_braking.py
 			 |
 			 |
-			 | 	       -emergency braking.webm
-			-|--videos --- -circle.webm
-			               -square.webm
+			 | 	       |--> emergency braking.webm
+			-|--> videos --|--> circle.webm
+			               |--> square.webm
 '''
 			
 
@@ -31,7 +31,7 @@ Task 1
 		concept that when given a same angular and linear velocity to the 
 		bot it moves in circular motion.
 		
-		Command to execute this
+		Use Command
 	''' $ roslaunch assignment3_turtlebot3 move.launch code:=circle '''
 	
 	
@@ -44,7 +44,7 @@ Task 1
 		added to the rotation by trial and error to have a trajectory similar
 		to square.
 		
-		Command to execute this
+		Use command
        ''' $ roslaunch assignment3_turtlebot3 move.launch code:=square '''
 	
 	
@@ -60,7 +60,7 @@ Task 2:
 	a script called emergency_braking.py which moves the turtlebot3 in a straight
 	motion but stops at emergency distance from the wall after it senses the wall.
 	
-	Command to execute this:
+	Use command
   ''' $ roslaunch assignment3_turtlebot3 emergency_brake_wall.launch '''
   
   
