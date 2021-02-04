@@ -1,7 +1,7 @@
 **********   ASSIGNMENT 3   **********
 
 
-Navigating through assignment 3
+Navigating through assignment 3:
 
 
 				  | -worlds -- turtlebot3_wall.world
@@ -20,16 +20,16 @@ Assignment3_turtlebot3- |        | - scripts --  - square.py
 			               
 			
 
-In Assignment 3 we have 2 tasks:
+In Assignment 3 we have 2 tasks
 
-Task 1:  
+Task 1
 	A) Move the turtlebot in circular motion.
 		We use the python script circle.py for its implementation.It uses the
 		concept that when given a same angular and linear velocity to the 
 		bot it moves in circular motion.
 		
-		Command to execute this:
-	$ roslaunch assignment3_turtlebot3 move.launch code:=circle
+		Command to execute this
+	 $ roslaunch assignment3_turtlebot3 move.launch code:=circle
 	
 	
 	
@@ -41,12 +41,12 @@ Task 1:
 		added to the rotation by trial and error to have a trajectory similar
 		to square.
 		
-		Command to execute this:
+		Command to execute this
 	$ roslaunch assignment3_turtlebot3 move.launch code:=square
 	
 	
 	
-	Launch File:
+	Launch File
 		We create one launch file to open our world in gazebo and the two
 		abovementioned nodes ie. circle and square motion.
 		
