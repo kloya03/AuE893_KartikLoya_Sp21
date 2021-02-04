@@ -12,7 +12,7 @@ In Assignment 3 we have 2 tasks:-
 ### Task 1
 
 	A) Move the turtlebot in circular motion.
-		We use the python script circle.py for its implementation.It uses the concept that when given a same angular and linear velocity to the bot it moves in circular motion. Use the below command to execute.
+		We use the python script circle.py for its implementation.It uses the\ 			concept that when given a same angular and linear velocity to the bot\ 			it moves in circular motion. Use the below command to execute.\
 		
 	
 	B) Move the turtlebot in a square motion.
