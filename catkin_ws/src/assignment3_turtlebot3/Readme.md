@@ -50,12 +50,11 @@ In Assignment 3 we have 2 tasks:-
 		script (node) emergency_braking.py
 		
 		
-'''pythonscript
-A) $ roslaunch assignment3_turtlebot3 move.launch code:=circle 
- 
-B) $ roslaunch assignment3_turtlebot3 move.launch code:=square  
 
-C) $ roslaunch assignment3_turtlebot3 emergency_brake_wall.launch  
-	
-'''	  
+A) '$ roslaunch assignment3_turtlebot3 move.launch code:=circle'  
+ 
+B) '$ roslaunch assignment3_turtlebot3 move.launch code:=square'  
+
+C) '$ roslaunch assignment3_turtlebot3 emergency_brake_wall.launch'   
+		  
  
