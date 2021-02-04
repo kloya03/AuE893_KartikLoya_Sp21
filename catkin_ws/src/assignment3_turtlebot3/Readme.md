@@ -9,13 +9,13 @@
 
 In Assignment 3 we have 2 tasks
 
-Task 1
-	A) Move the turtlebot in circular motion.
+## Task 1
+'''	A) Move the turtlebot in circular motion.
 		We use the python script circle.py for its implementation.It uses the
 		concept that when given a same angular and linear velocity to the 
 		bot it moves in circular motion. Use the below command to execute.
 		
-	'roslaunch assignment3_turtlebot3 move.launch code:=circle'
+	roslaunch assignment3_turtlebot3 move.launch code:=circle
 	
 	
 	
@@ -27,7 +27,7 @@ Task 1
 		added to the rotation by trial and error to have a trajectory similar
 		to square. Use the below command to execute.
 		
-       'roslaunch assignment3_turtlebot3 move.launch code:=square'
+       roslaunch assignment3_turtlebot3 move.launch code:=square
 	
 	
 	
@@ -36,14 +36,14 @@ Task 1
 		abovementioned nodes ie. circle and square motion.
 		
 
-
-Task 2:
-	In task 2 we create a world with the turtlebot3 and a wall. Then we simulate
+'''
+### Task 2:
+'''	In task 2 we create a world with the turtlebot3 and a wall. Then we simulate
 	a script called emergency_braking.py which moves the turtlebot3 in a straight
 	motion but stops at emergency distance from the wall after it senses the wall.
 	Use the below command to execute.
 	
-  'roslaunch assignment3_turtlebot3 emergency_brake_wall.launch'
+  roslaunch assignment3_turtlebot3 emergency_brake_wall.launch
   
   
 	Launch File:
@@ -51,7 +51,7 @@ Task 2:
 		turtlebot in gazebo and the executes the python script (node) 
 		emergency_braking.py
 		
-	
+'''
 	
 		 	  
  
