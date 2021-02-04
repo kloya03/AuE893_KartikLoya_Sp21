@@ -132,6 +132,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/administrator/git_ws/AuE893_KartikLoya_Sp21/catkin_ws/build/gtest/cmake_install.cmake")
   include("/home/administrator/git_ws/AuE893_KartikLoya_Sp21/catkin_ws/build/turtlebot3_simulations/turtlebot3_simulations/cmake_install.cmake")
+  include("/home/administrator/git_ws/AuE893_KartikLoya_Sp21/catkin_ws/build/assignment3_turtlebot3/cmake_install.cmake")
   include("/home/administrator/git_ws/AuE893_KartikLoya_Sp21/catkin_ws/build/assignment_2/cmake_install.cmake")
   include("/home/administrator/git_ws/AuE893_KartikLoya_Sp21/catkin_ws/build/turtlebot3_simulations/turtlebot3_fake/cmake_install.cmake")
   include("/home/administrator/git_ws/AuE893_KartikLoya_Sp21/catkin_ws/build/turtlebot3_simulations/turtlebot3_gazebo/cmake_install.cmake")
